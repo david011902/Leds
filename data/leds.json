@@ -1,0 +1,230 @@
+{
+  "luces_led": [
+
+    {
+      "nombre": "H1",
+      "alias": ["H1", "foco H1", "luz alta H1"],
+      "imagen": "/images/led/h1.png",
+      "tipo_luz": "alta",
+      "vehiculo": ["auto", "moto"],
+      "ubicacion": "exterior"
+    },
+    {
+      "nombre": "H3",
+      "alias": ["H3", "foco con cable", "H3 niebla"],
+      "imagen": "/images/led/h3.png",
+      "tipo_luz": "niebla",
+      "vehiculo": ["auto", "moto"],
+      "ubicacion": "exterior"
+    },
+    {
+      "nombre": "H4",
+      "alias": ["H4", "foco tres patas", "alta y baja H4"],
+      "imagen": "/images/led/h4.png",
+      "tipo_luz": "alta y baja",
+      "vehiculo": ["auto", "moto"],
+      "ubicacion": "exterior"
+    },
+    {
+      "nombre": "H7",
+      "alias": ["H7", "foco H7", "luz baja H7"],
+      "imagen": "/images/led/h7.png",
+      "tipo_luz": "baja",
+      "vehiculo": ["auto", "moto"],
+      "ubicacion": "exterior"
+    },
+    {
+      "nombre": "H8",
+      "alias": ["H8", "foco H8", "foco niebla H8"],
+      "imagen": "/images/led/h8.png",
+      "tipo_luz": "niebla",
+      "vehiculo": ["auto"],
+      "ubicacion": "exterior"
+    },
+    {
+      "nombre": "H9",
+      "alias": ["H9", "foco H9", "alta H9"],
+      "imagen": "/images/led/h9.png",
+      "tipo_luz": "alta",
+      "vehiculo": ["auto"],
+      "ubicacion": "exterior"
+    },
+    {
+      "nombre": "H11",
+      "alias": ["H11", "foco H11", "niebla H11"],
+      "imagen": "/images/led/h11.png",
+      "tipo_luz": "baja",
+      "vehiculo": ["auto", "moto"],
+      "ubicacion": "exterior"
+    },
+    {
+      "nombre": "H13",
+      "alias": ["H13", "9008", "alta baja H13"],
+      "imagen": "/images/led/h13.png",
+      "tipo_luz": "alta y baja",
+      "vehiculo": ["auto"],
+      "ubicacion": "exterior"
+    },
+    {
+      "nombre": "9004",
+      "alias": ["9004", "HB1"],
+      "imagen": "/images/led/9004.png",
+      "tipo_luz": "alta y baja",
+      "vehiculo": ["auto"],
+      "ubicacion": "exterior"
+    },
+    {
+      "nombre": "9005",
+      "alias": ["9005", "HB3", "luz alta"],
+      "imagen": "/images/led/9005.png",
+      "tipo_luz": "alta",
+      "vehiculo": ["auto"],
+      "ubicacion": "exterior"
+    },
+    {
+      "nombre": "9006",
+      "alias": ["9006", "HB4", "luz baja"],
+      "imagen": "/images/led/9006.png",
+      "tipo_luz": "baja",
+      "vehiculo": ["auto"],
+      "ubicacion": "exterior"
+    },
+    {
+      "nombre": "9012",
+      "alias": ["9012", "HIR2"],
+      "imagen": "/images/led/9012.png",
+      "tipo_luz": "baja",
+      "vehiculo": ["auto"],
+      "ubicacion": "exterior"
+    },
+
+
+
+    {
+      "nombre": "T4.2",
+      "alias": ["T4.2", "foco tablero"],
+      "imagen": "/images/led/t42.png",
+      "tipo_luz": "tablero",
+      "vehiculo": ["auto", "moto"],
+      "ubicacion": "interior"
+    },
+    {
+      "nombre": "T4.7",
+      "alias": ["T4.7", "tablero grande"],
+      "imagen": "/images/led/t47.png",
+      "tipo_luz": "tablero",
+      "vehiculo": ["auto"],
+      "ubicacion": "interior"
+    },
+    {
+      "nombre": "T5",
+      "alias": ["T5", "mini tablero"],
+      "imagen": "/images/led/t5.png",
+      "tipo_luz": "tablero",
+      "vehiculo": ["auto", "moto"],
+      "ubicacion": "interior"
+    },
+    {
+      "nombre": "T10",
+      "alias": ["T10", "W5W", "foco placa"],
+      "imagen": "/images/led/t10.png",
+      "tipo_luz": "interior",
+      "vehiculo": ["auto", "moto"],
+      "ubicacion": "interior"
+    },
+    {
+      "nombre": "T15",
+      "alias": ["T15", "921", "reversa"],
+      "imagen": "/images/led/t15.png",
+      "tipo_luz": "reversa",
+      "vehiculo": ["auto"],
+      "ubicacion": "exterior"
+    },
+    {
+      "nombre": "T20",
+      "alias": ["T20", "7440", "7443"],
+      "imagen": "/images/led/t20.png",
+      "tipo_luz": "direccional",
+      "vehiculo": ["auto"],
+      "ubicacion": "exterior"
+    },
+    {
+      "nombre": "T25",
+      "alias": ["T25", "3157", "3156"],
+      "imagen": "/images/led/t25.png",
+      "tipo_luz": "freno",
+      "vehiculo": ["auto"],
+      "ubicacion": "exterior"
+    },
+
+
+
+    {
+      "nombre": "BA9S",
+      "alias": ["BA9S", "foco tablero bayoneta"],
+      "imagen": "/images/led/ba9s.png",
+      "tipo_luz": "tablero",
+      "vehiculo": ["auto"],
+      "ubicacion": "interior"
+    },
+    {
+      "nombre": "1156",
+      "alias": ["1156", "P21W", "foco direccional"],
+      "imagen": "/images/led/1156.png",
+      "tipo_luz": "direccional",
+      "vehiculo": ["auto"],
+      "ubicacion": "exterior"
+    },
+    {
+      "nombre": "1157",
+      "alias": ["1157", "P21/5W", "foco freno doble"],
+      "imagen": "/images/led/1157.png",
+      "tipo_luz": "freno",
+      "vehiculo": ["auto"],
+      "ubicacion": "exterior"
+    },
+
+
+
+    {
+      "nombre": "Festoon 31mm",
+      "alias": ["31mm", "foco interior 31"],
+      "imagen": "/images/led/31mm.png",
+      "tipo_luz": "interior",
+      "vehiculo": ["auto"],
+      "ubicacion": "interior"
+    },
+    {
+      "nombre": "Festoon 36mm",
+      "alias": ["36mm", "foco interior 36"],
+      "imagen": "/images/led/36mm.png",
+      "tipo_luz": "interior",
+      "vehiculo": ["auto"],
+      "ubicacion": "interior"
+    },
+    {
+      "nombre": "Festoon 39mm",
+      "alias": ["39mm", "foco interior 39"],
+      "imagen": "/images/led/39mm.png",
+      "tipo_luz": "interior",
+      "vehiculo": ["auto"],
+      "ubicacion": "interior"
+    },
+    {
+      "nombre": "Festoon 41mm",
+      "alias": ["41mm", "foco interior 41"],
+      "imagen": "/images/led/41mm.png",
+      "tipo_luz": "interior",
+      "vehiculo": ["auto"],
+      "ubicacion": "interior"
+    },
+    {
+      "nombre": "Festoon 42mm",
+      "alias": ["42mm", "foco interior 42"],
+      "imagen": "/images/led/42mm.png",
+      "tipo_luz": "interior",
+      "vehiculo": ["auto"],
+      "ubicacion": "interior"
+    }
+  ]
+}
