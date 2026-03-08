@@ -7,7 +7,9 @@
       "imagen": "/images/led/h1.png",
       "tipo_luz": "alta",
       "vehiculo": ["auto", "moto"],
-      "ubicacion": "exterior"
+      "ubicacion": "exterior",
+      "descripcion": "Foco utilizado comúnmente para luz alta en faros delanteros.",
+      "identificacion": "Base metálica con una sola terminal eléctrica."
     },
     {
       "nombre": "H3",
@@ -15,7 +17,9 @@
       "imagen": "/images/led/h3.png",
       "tipo_luz": "niebla",
       "vehiculo": ["auto", "moto"],
-      "ubicacion": "exterior"
+      "ubicacion": "exterior",
+      "descripcion": "Foco comúnmente usado en luces de niebla.",
+      "identificacion": "Base metálica con cable integrado."
     },
     {
       "nombre": "H4",
@@ -23,7 +27,9 @@
       "imagen": "/images/led/h4.png",
       "tipo_luz": "alta y baja",
       "vehiculo": ["auto", "moto"],
-      "ubicacion": "exterior"
+      "ubicacion": "exterior",
+      "descripcion": "Foco de doble intensidad que proporciona luz alta y baja.",
+      "identificacion": "Base metálica con tres pines eléctricos."
     },
     {
       "nombre": "H7",
@@ -31,7 +37,9 @@
       "imagen": "/images/led/h7.png",
       "tipo_luz": "baja",
       "vehiculo": ["auto", "moto"],
-      "ubicacion": "exterior"
+      "ubicacion": "exterior",
+      "descripcion": "Foco utilizado principalmente para luz baja en faros delanteros.",
+      "identificacion": "Base metálica plana con conector trasero."
     },
     {
       "nombre": "H8",
@@ -39,7 +47,9 @@
       "imagen": "/images/led/h8.png",
       "tipo_luz": "niebla",
       "vehiculo": ["auto"],
-      "ubicacion": "exterior"
+      "ubicacion": "exterior",
+      "descripcion": "Foco utilizado en faros de niebla de algunos vehículos.",
+      "identificacion": "Base plástica con conector giratorio."
     },
     {
       "nombre": "H9",
@@ -47,7 +57,9 @@
       "imagen": "/images/led/h9.png",
       "tipo_luz": "alta",
       "vehiculo": ["auto"],
-      "ubicacion": "exterior"
+      "ubicacion": "exterior",
+      "descripcion": "Foco utilizado para luz alta en algunos vehículos modernos.",
+      "identificacion": "Base plástica similar a H11 pero con diferente posición de pines."
     },
     {
       "nombre": "H11",
@@ -55,7 +67,9 @@
       "imagen": "/images/led/h11.png",
       "tipo_luz": "baja",
       "vehiculo": ["auto", "moto"],
-      "ubicacion": "exterior"
+      "ubicacion": "exterior",
+      "descripcion": "Foco común usado en luces bajas y de niebla.",
+      "identificacion": "Base plástica con sistema de giro para instalar."
     },
     {
       "nombre": "H13",
@@ -63,15 +77,20 @@
       "imagen": "/images/led/h13.png",
       "tipo_luz": "alta y baja",
       "vehiculo": ["auto"],
-      "ubicacion": "exterior"
+      "ubicacion": "exterior",
+      "descripcion": "Foco de doble intensidad utilizado en algunos vehículos americanos.",
+      "identificacion": "Base plástica grande con conector rectangular."
     },
+
     {
       "nombre": "9004",
       "alias": ["9004", "HB1"],
       "imagen": "/images/led/9004.png",
       "tipo_luz": "alta y baja",
       "vehiculo": ["auto"],
-      "ubicacion": "exterior"
+      "ubicacion": "exterior",
+      "descripcion": "Foco de doble intensidad usado en faros delanteros.",
+      "identificacion": "Base plástica con tres terminales."
     },
     {
       "nombre": "9005",
@@ -79,7 +98,9 @@
       "imagen": "/images/led/9005.png",
       "tipo_luz": "alta",
       "vehiculo": ["auto"],
-      "ubicacion": "exterior"
+      "ubicacion": "exterior",
+      "descripcion": "Foco utilizado para luz alta.",
+      "identificacion": "Base plástica con conector giratorio."
     },
     {
       "nombre": "9006",
@@ -87,7 +108,9 @@
       "imagen": "/images/led/9006.png",
       "tipo_luz": "baja",
       "vehiculo": ["auto"],
-      "ubicacion": "exterior"
+      "ubicacion": "exterior",
+      "descripcion": "Foco común para luz baja.",
+      "identificacion": "Base plástica con conector tipo giro."
     },
     {
       "nombre": "9012",
@@ -95,18 +118,30 @@
       "imagen": "/images/led/9012.png",
       "tipo_luz": "baja",
       "vehiculo": ["auto"],
-      "ubicacion": "exterior"
+      "ubicacion": "exterior",
+      "descripcion": "Foco halógeno de alto rendimiento utilizado en luces bajas.",
+      "identificacion": "Base plástica con pestañas de fijación."
     },
 
-
-
+    {
+      "nombre": "T3",
+      "alias": ["T3", "foco tablero pequeño", "foco mini tablero"],
+      "imagen": "/images/led/t3.png",
+      "tipo_luz": "tablero",
+      "vehiculo": ["auto", "moto"],
+      "ubicacion": "interior",
+      "descripcion": "Foco pequeño utilizado en indicadores del tablero.",
+      "identificacion": "Base mini tipo twist."
+    },
     {
       "nombre": "T4.2",
       "alias": ["T4.2", "foco tablero"],
       "imagen": "/images/led/t42.png",
       "tipo_luz": "tablero",
       "vehiculo": ["auto", "moto"],
-      "ubicacion": "interior"
+      "ubicacion": "interior",
+      "descripcion": "Foco pequeño usado en paneles de instrumentos.",
+      "identificacion": "Base plástica de giro."
     },
     {
       "nombre": "T4.7",
@@ -114,7 +149,9 @@
       "imagen": "/images/led/t47.png",
       "tipo_luz": "tablero",
       "vehiculo": ["auto"],
-      "ubicacion": "interior"
+      "ubicacion": "interior",
+      "descripcion": "Foco usado en tableros de instrumentos.",
+      "identificacion": "Base plástica tipo twist."
     },
     {
       "nombre": "T5",
@@ -122,15 +159,20 @@
       "imagen": "/images/led/t5.png",
       "tipo_luz": "tablero",
       "vehiculo": ["auto", "moto"],
-      "ubicacion": "interior"
+      "ubicacion": "interior",
+      "descripcion": "Foco pequeño utilizado en paneles interiores.",
+      "identificacion": "Base tipo wedge."
     },
+
     {
       "nombre": "T10",
       "alias": ["T10", "W5W", "foco placa"],
       "imagen": "/images/led/t10.png",
-      "tipo_luz": "interior",
+      "tipo_luz": "posición",
       "vehiculo": ["auto", "moto"],
-      "ubicacion": "interior"
+      "ubicacion": "exterior",
+      "descripcion": "Foco tipo cuña utilizado en posición, placa o interior.",
+      "identificacion": "Base wedge sin pines."
     },
     {
       "nombre": "T15",
@@ -138,7 +180,9 @@
       "imagen": "/images/led/t15.png",
       "tipo_luz": "reversa",
       "vehiculo": ["auto"],
-      "ubicacion": "exterior"
+      "ubicacion": "exterior",
+      "descripcion": "Foco usado comúnmente para luz de reversa.",
+      "identificacion": "Base wedge más grande que T10."
     },
     {
       "nombre": "T20",
@@ -146,7 +190,9 @@
       "imagen": "/images/led/t20.png",
       "tipo_luz": "direccional",
       "vehiculo": ["auto"],
-      "ubicacion": "exterior"
+      "ubicacion": "exterior",
+      "descripcion": "Foco utilizado para direccionales o freno dependiendo del modelo.",
+      "identificacion": "Base wedge grande."
     },
     {
       "nombre": "T25",
@@ -154,37 +200,51 @@
       "imagen": "/images/led/t25.png",
       "tipo_luz": "freno",
       "vehiculo": ["auto"],
-      "ubicacion": "exterior"
+      "ubicacion": "exterior",
+      "descripcion": "Foco usado en freno o direccionales.",
+      "identificacion": "Base wedge grande similar a T20."
     },
-
-
 
     {
       "nombre": "BA9S",
       "alias": ["BA9S", "foco tablero bayoneta"],
       "imagen": "/images/led/ba9s.png",
       "tipo_luz": "tablero",
-      "vehiculo": ["auto"],
-      "ubicacion": "interior"
+      "vehiculo": ["auto", "moto"],
+      "ubicacion": "interior",
+      "descripcion": "Foco bayoneta pequeño usado en tableros.",
+      "identificacion": "Base metálica con dos pines laterales."
     },
     {
-      "nombre": "1156",
-      "alias": ["1156", "P21W", "foco direccional"],
-      "imagen": "/images/led/1156.png",
+      "nombre": "BA15S",
+      "alias": ["BA15S", "1156", "foco patas parejas"],
+      "imagen": "/images/led/ba15s.png",
       "tipo_luz": "direccional",
       "vehiculo": ["auto"],
-      "ubicacion": "exterior"
+      "ubicacion": "exterior",
+      "descripcion": "Foco bayoneta de un solo polo usado en direccionales.",
+      "identificacion": "Pines laterales a la misma altura."
     },
     {
-      "nombre": "1157",
-      "alias": ["1157", "P21/5W", "foco freno doble"],
-      "imagen": "/images/led/1157.png",
+      "nombre": "BA15D",
+      "alias": ["BA15D", "doble polo patas parejas"],
+      "imagen": "/images/led/ba15d.png",
+      "tipo_luz": "doble intensidad",
+      "vehiculo": ["auto"],
+      "ubicacion": "exterior",
+      "descripcion": "Foco bayoneta con doble contacto inferior.",
+      "identificacion": "Pines laterales alineados."
+    },
+    {
+      "nombre": "BAY15D",
+      "alias": ["BAY15D", "1157", "foco patas disparejas"],
+      "imagen": "/images/led/bay15d.png",
       "tipo_luz": "freno",
       "vehiculo": ["auto"],
-      "ubicacion": "exterior"
+      "ubicacion": "exterior",
+      "descripcion": "Foco bayoneta de doble intensidad usado en freno y posición.",
+      "identificacion": "Pines laterales a diferente altura."
     },
-
-
 
     {
       "nombre": "Festoon 31mm",
@@ -192,7 +252,9 @@
       "imagen": "/images/led/31mm.png",
       "tipo_luz": "interior",
       "vehiculo": ["auto"],
-      "ubicacion": "interior"
+      "ubicacion": "interior",
+      "descripcion": "Foco tubular usado en luces interiores.",
+      "identificacion": "Contacto metálico en ambos extremos."
     },
     {
       "nombre": "Festoon 36mm",
@@ -200,7 +262,9 @@
       "imagen": "/images/led/36mm.png",
       "tipo_luz": "interior",
       "vehiculo": ["auto"],
-      "ubicacion": "interior"
+      "ubicacion": "interior",
+      "descripcion": "Foco tubular para iluminación interior.",
+      "identificacion": "Terminales metálicas en ambos lados."
     },
     {
       "nombre": "Festoon 39mm",
@@ -208,7 +272,9 @@
       "imagen": "/images/led/39mm.png",
       "tipo_luz": "interior",
       "vehiculo": ["auto"],
-      "ubicacion": "interior"
+      "ubicacion": "interior",
+      "descripcion": "Foco tubular usado en plafones interiores.",
+      "identificacion": "Contactos metálicos en extremos."
     },
     {
       "nombre": "Festoon 41mm",
@@ -216,7 +282,9 @@
       "imagen": "/images/led/41mm.png",
       "tipo_luz": "interior",
       "vehiculo": ["auto"],
-      "ubicacion": "interior"
+      "ubicacion": "interior",
+      "descripcion": "Foco tubular utilizado en plafones de techo.",
+      "identificacion": "Contactos metálicos laterales."
     },
     {
       "nombre": "Festoon 42mm",
@@ -224,7 +292,10 @@
       "imagen": "/images/led/42mm.png",
       "tipo_luz": "interior",
       "vehiculo": ["auto"],
-      "ubicacion": "interior"
+      "ubicacion": "interior",
+      "descripcion": "Foco tubular utilizado en iluminación interior de vehículos.",
+      "identificacion": "Contactos metálicos en ambos extremos."
     }
+
   ]
 }
