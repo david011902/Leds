@@ -1,4 +1,4 @@
-#Manual de Sockets LED
+# Manual de Sockets LED
  
 Guía visual e interactiva para identificar el tipo de socket LED que utiliza un vehículo. Filtra por categoría y consulta el nombre del socket con su imagen de referencia.
  
